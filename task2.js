@@ -1,7 +1,4 @@
 let n=6.67
-console.log(n/0);
-const bigchislo=667n
-console.log(bigchislo);
 let name='Stalin'
 let str="Hallo"
 let phrase=`Privet po nemecki = ${str}`;
