@@ -11,6 +11,6 @@ let user ={
             name:"Iosif",
             age:54,
             nation:"gruzin"};
-console.log(user.name);
-console.log(user.nation);
-typeof phrase;
+console.log(typeof user.name);
+console.log(typeof user.nation);
+console.log(typeof n);
