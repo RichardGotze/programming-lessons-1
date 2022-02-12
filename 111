@@ -1,2 +1,4 @@
 let message='Hello!';
 console.log(message);
+let user = 'Anatoly';
+let age = 25;
