@@ -14,3 +14,5 @@ let user ={
 console.log(typeof user.name);
 console.log(typeof user.nation);
 console.log(typeof n);
+let arr=[];
+console.log(typeof arr);
