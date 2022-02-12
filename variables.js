@@ -1,3 +1,3 @@
 let language='english';
-let mothertongue='english'
+let mothertongue=`${language}`;
 console.log(mothertongue)

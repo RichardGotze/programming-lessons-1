@@ -1,6 +1,0 @@
-let message='Hello!';
-console.log(message);
-let user = 'Anatoly';
-console.log(user);
-let age = 25;
-console.log(age);
