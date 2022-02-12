@@ -8,7 +8,6 @@ let user ={
             name:"Iosif",
             age:54,
             nation:"gruzin"};
-console.log(typeof user.name);
 console.log(typeof user.nation);
 console.log(typeof n);
 let arr=[];
