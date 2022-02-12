@@ -5,6 +5,8 @@ function min()
     else
         console.log(b);
 }
-a=6;
-b=5;
-console.log(min())
+var a = prompt("Enter a Value", "0");
+ var b = prompt("Enter a Value", "0");
+ var num1 = parseInt(a);
+ var num2 = parseInt(b);
+console.log(min());
