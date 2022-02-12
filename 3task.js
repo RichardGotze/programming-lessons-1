@@ -1,3 +1,4 @@
+
 function min()
 {
     if(a<b)
@@ -5,6 +6,6 @@ function min()
     else
         console.log(b);
 }
-a=6;
-b=5;
+let a=6;
+let b=5;
 console.log(min());
