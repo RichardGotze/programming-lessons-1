@@ -18,7 +18,7 @@ const requestHandler = (request, response) => {
     console.log("Все заголовки");
     console.log(request.headers);
     let user = JSON.stringify(request.headers);
-    
+
     fs.appendFileSync("log.txt", request.url);
     fs.appendFileSync("log.txt", request.method);
     fs.appendFileSync("log.txt", user);
