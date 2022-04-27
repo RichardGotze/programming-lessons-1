@@ -1,14 +1,14 @@
 const fs = require('fs');
 const axios = require('axios');
 const Path = require('path');
-let b = new Promise(async function (resolve, reject) {
-    async function download() {
+let b = new Promise(function (resolve, reject) {
+    function download() {
         axios.get("https://jsonplaceholder.typicode.com/todos").then(
                 response => {
                     const a = response.data;
                     console.log(response);
                     let json = JSON.stringify(a);
-                    console.log(typeof json); // мы получили строку!
+                    console.log(typeof json);
                     console.log(json);
                     fs.writeFile('todos1.json', json, function (err) {
                         if (err) return console.log(err);
