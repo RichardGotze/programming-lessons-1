@@ -15,14 +15,13 @@ let b = new Promise(function (resolve, reject) {
                         console.log('json file has created');
 
                     });
+                    resolve(download());
                 }
             )
-            .catch(async function (error) {
+            .catch(function (error) {
                 console.log(error);
             })
-    }
-    resolve(download());
-})
+
 b.then(
     result => {
         fs.readFile('todos1.json', 'utf8', function(error, data){
