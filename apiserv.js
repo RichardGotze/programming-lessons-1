@@ -50,7 +50,7 @@ promise.then(
             digit=1;
             kirpich = todos[digit];
             console.log(kirpich);
-            console.log("данные получены");
+            console.log("данные получены!");
         })
     },
     error => {
