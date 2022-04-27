@@ -47,7 +47,7 @@ promise.then(
             }
             const todos = JSON.parse(data);
             console.log("upload has done");
-            digit=1;
+            digit=69;
             kirpich = todos[digit];
             console.log(kirpich);
             console.log("данные получены!");
