@@ -32,7 +32,7 @@ app.get('/todos/:id', (req, res) => {
     fs.readFile('todos1.json', 'utf8', function (error, data) {
         if (error) {
             console.error(error)
-            console.log("ERROR")
+            console.log("ERRORr")
             return
         }
         const todos = JSON.parse(data);
