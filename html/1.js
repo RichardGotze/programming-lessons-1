@@ -5,6 +5,7 @@ const ROOT = path.join(__dirname);
 
 const app = express();
 
+app.use('/static', express.static(path.join(ROOT, 'static')));
 app.get('/:id', (req, res) => {
     let id = req.params.id;
     console.log(id);
