@@ -4,6 +4,7 @@
     "js-file-download": "^0.4.12",
     "node-fetch": "^3.2.3",
     "readline-sync": "^1.4.10",
-    "stdio": "^2.1.1"
+    "stdio": "^2.1.1",
+    "vscode-express": "^1.0.1"
   }
 }
